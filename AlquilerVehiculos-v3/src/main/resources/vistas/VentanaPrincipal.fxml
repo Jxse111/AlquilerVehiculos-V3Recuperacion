@@ -26,20 +26,11 @@
          <children>
             <AnchorPane prefHeight="434.0" prefWidth="640.0">
                <children>
-                  <Button layoutX="24.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
-                     <graphic>
-                        <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../../../../../Downloads/add_circle_create_expand_new_plus_icon_123218.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
                   <Button layoutX="14.0" layoutY="267.0" mnemonicParsing="false" onAction="#Modificar" text="Modificar">
                      <graphic>
                         <ImageView fitHeight="35.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/104668.png" />
+                              <Image url="@../Imagenes/104668.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -63,7 +54,7 @@
                      <graphic>
                         <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/view_show_icon_124811.png" />
+                              <Image url="@../Imagenes/view_show_icon_124811.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -72,7 +63,7 @@
                      <graphic>
                         <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/2531409.png" />
+                              <Image url="@../Imagenes/2531409.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -81,7 +72,7 @@
                      <graphic>
                         <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/8278630.png" />
+                              <Image url="@../Imagenes/8278630.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -90,7 +81,7 @@
                      <graphic>
                         <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/3221845.png" />
+                              <Image url="@../Imagenes/3221845.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -99,7 +90,7 @@
                      <graphic>
                         <ImageView fitHeight="51.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/102501.png" />
+                              <Image url="@../Imagenes/102501.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -117,16 +108,7 @@
                      <graphic>
                         <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/add_circle_create_expand_new_plus_icon_123218.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="459.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
-                     <graphic>
-                        <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../../../../../Downloads/add_circle_create_expand_new_plus_icon_123218.png" />
+                              <Image url="@../Imagenes/add_circle_create_expand_new_plus_icon_123218.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -135,7 +117,7 @@
                      <graphic>
                         <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/2531409.png" />
+                              <Image url="@../Imagenes/2531409.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -144,7 +126,7 @@
                      <graphic>
                         <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/2531409.png" />
+                              <Image url="@../Imagenes/2531409.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -153,7 +135,7 @@
                      <graphic>
                         <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/3221845.png" />
+                              <Image url="@../Imagenes/3221845.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -162,7 +144,7 @@
                      <graphic>
                         <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/3221845.png" />
+                              <Image url="@../Imagenes/3221845.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -171,7 +153,7 @@
                      <graphic>
                         <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/8278630.png" />
+                              <Image url="@../Imagenes/8278630.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -180,7 +162,7 @@
                      <graphic>
                         <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/8278630.png" />
+                              <Image url="@../Imagenes/8278630.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -189,7 +171,7 @@
                      <graphic>
                         <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/view_show_icon_124811.png" />
+                              <Image url="@../Imagenes/view_show_icon_124811.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -198,26 +180,44 @@
                      <graphic>
                         <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Downloads/view_show_icon_124811.png" />
+                              <Image url="@../Imagenes/view_show_icon_124811.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
                   <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="97.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../../Downloads/686317.png" />
+                        <Image url="@../Imagenes/686317.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="64.0" fitWidth="31.0" layoutX="326.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../../Downloads/png-transparent-compact-car-audi-computer-icons-sports-car-car-compact-car-angle-vintage-car.png" />
+                        <Image url="@../Imagenes/png-transparent-compact-car-audi-computer-icons-sports-car-car-compact-car-angle-vintage-car.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="541.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../../Downloads/44833.png" />
+                        <Image url="@../Imagenes/44833.png" />
                      </image>
                   </ImageView>
+                  <Button layoutX="25.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
+                     <graphic>
+                        <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/add_circle_create_expand_new_plus_icon_123218.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="461.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
+                     <graphic>
+                        <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/add_circle_create_expand_new_plus_icon_123218.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
                </children>
             </AnchorPane>
          </children>

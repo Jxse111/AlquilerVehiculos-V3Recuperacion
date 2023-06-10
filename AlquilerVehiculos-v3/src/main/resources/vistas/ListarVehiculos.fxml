@@ -24,16 +24,15 @@
          <children>
             <TableView prefHeight="278.0" prefWidth="552.0">
               <columns>
-                <TableColumn prefWidth="203.0" text="Nombre" />
-                <TableColumn prefWidth="129.0" text="DNI" />
-                  <TableColumn prefWidth="102.0" text="Teléfono" />
+                <TableColumn prefWidth="203.0" text="Marca" />
+                <TableColumn prefWidth="129.0" text="Modelo" />
+                  <TableColumn prefWidth="102.0" text="Matricula" />
               </columns>
             </TableView>
             <Button mnemonicParsing="false" text="Buscar" translateX="10.0" GridPane.rowIndex="2" />
             <Button mnemonicParsing="false" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2" />
             <Button mnemonicParsing="false" text="Eliminar" translateX="100.0" GridPane.rowIndex="2" />
             <Button mnemonicParsing="false" text="Devolver" translateX="200.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Modificar" translateX="300.0" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
