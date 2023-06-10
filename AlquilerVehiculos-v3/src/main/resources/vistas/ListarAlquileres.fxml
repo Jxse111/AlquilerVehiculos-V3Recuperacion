@@ -34,6 +34,7 @@
             <Button mnemonicParsing="false" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2" />
             <Button mnemonicParsing="false" text="Eliminar" translateX="100.0" GridPane.rowIndex="2" />
             <Button mnemonicParsing="false" text="Devolver" translateX="200.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" text="Estadisticas" translateX="300.0" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
