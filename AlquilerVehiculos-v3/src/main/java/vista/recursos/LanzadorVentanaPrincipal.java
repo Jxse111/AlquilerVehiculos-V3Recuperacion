@@ -3,10 +3,6 @@ package vista.recursos;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
-import vista.utilidades.Controlador;
-import vista.utilidades.Controladores;
-import vista.utilidades.Dialogos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
