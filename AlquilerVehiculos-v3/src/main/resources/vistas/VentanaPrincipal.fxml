@@ -26,75 +26,21 @@
          <children>
             <AnchorPane prefHeight="434.0" prefWidth="640.0">
                <children>
-                  <Button layoutX="14.0" layoutY="267.0" mnemonicParsing="false" onAction="#Modificar" text="Modificar">
-                     <graphic>
-                        <ImageView fitHeight="35.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/104668.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text layoutX="30.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clientes" wrappingWidth="79.7890625">
+                  <Text layoutX="30.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clientes" wrappingWidth="79.7890625">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Text>
-                  <Text layoutX="241.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehiculos">
+                  <Text layoutX="239.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehiculos">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Text>
-                  <Text layoutX="456.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alquileres">
+                  <Text layoutX="452.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alquileres">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Text>
-                  <Button layoutX="1.0" layoutY="332.0" mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todos">
-                     <graphic>
-                        <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/view_show_icon_124811.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="245.0" layoutY="120.0" mnemonicParsing="false" onAction="#Buscar" text="Buscar">
-                     <graphic>
-                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/2531409.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="231.0" layoutY="224.0" mnemonicParsing="false" onAction="#Devolver" text="Devolucion">
-                     <graphic>
-                        <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/8278630.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="18.0" layoutY="173.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar">
-                     <graphic>
-                        <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/3221845.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="447.0" layoutY="270.0" mnemonicParsing="false" onAction="#Devolver" text="Estadisticas">
-                     <graphic>
-                        <ImageView fitHeight="51.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/102501.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
                   <MenuBar layoutX="-7.0" layoutY="-4.0" prefHeight="25.0" prefWidth="608.0">
                     <menus>
                       <Menu mnemonicParsing="false" onAction="#Ayuda" text="Acerca de ">
@@ -104,7 +50,7 @@
                       </Menu>
                     </menus>
                   </MenuBar>
-                  <Button layoutX="245.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
+                  <Button layoutX="241.0" layoutY="188.0" mnemonicParsing="false" onAction="#Añadir" prefHeight="25.0" prefWidth="124.0" text="Añadir">
                      <graphic>
                         <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -113,94 +59,22 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button layoutX="24.0" layoutY="120.0" mnemonicParsing="false" onAction="#Buscar" text="Buscar">
-                     <graphic>
-                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/2531409.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="459.0" layoutY="120.0" mnemonicParsing="false" onAction="#Buscar" text="Buscar">
-                     <graphic>
-                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/2531409.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="239.0" layoutY="173.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar">
-                     <graphic>
-                        <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/3221845.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="454.0" layoutY="173.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar">
-                     <graphic>
-                        <ImageView fitHeight="42.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/3221845.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="446.0" layoutY="224.0" mnemonicParsing="false" onAction="#Devolver" text="Devolucion">
-                     <graphic>
-                        <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/8278630.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="10.0" layoutY="224.0" mnemonicParsing="false" onAction="#Devolver" text="Devolucion">
-                     <graphic>
-                        <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/8278630.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="222.0" layoutY="266.0" mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todos">
-                     <graphic>
-                        <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/view_show_icon_124811.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button layoutX="436.0" layoutY="332.0" mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todos">
-                     <graphic>
-                        <ImageView fitHeight="53.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Imagenes/view_show_icon_124811.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="97.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="110.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Imagenes/686317.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="64.0" fitWidth="31.0" layoutX="326.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="64.0" fitWidth="31.0" layoutX="322.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Imagenes/png-transparent-compact-car-audi-computer-icons-sports-car-car-compact-car-angle-vintage-car.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="541.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="539.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Imagenes/44833.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="25.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
+                  <Button layoutX="30.0" layoutY="188.0" mnemonicParsing="false" onAction="#Añadir" prefHeight="25.0" prefWidth="118.0" text="Añadir">
                      <graphic>
                         <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -209,7 +83,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button layoutX="461.0" layoutY="73.0" mnemonicParsing="false" onAction="#Añadir" text="Añadir">
+                  <Button layoutX="459.0" layoutY="188.0" mnemonicParsing="false" onAction="#Añadir" prefHeight="25.0" prefWidth="118.0" text="Añadir">
                      <graphic>
                         <ImageView fitHeight="94.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
