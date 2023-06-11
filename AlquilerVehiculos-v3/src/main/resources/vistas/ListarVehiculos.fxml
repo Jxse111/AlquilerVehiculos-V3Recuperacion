@@ -3,6 +3,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
@@ -29,10 +31,38 @@
                   <TableColumn prefWidth="102.0" text="Matricula" />
               </columns>
             </TableView>
-            <Button mnemonicParsing="false" onAction="#Buscar" text="Buscar" translateX="10.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#Eliminar" text="Eliminar" translateX="100.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#Devolver" text="Devolver" translateX="200.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Buscar" text="Buscar" translateX="10.0" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/2531409.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/view_show_icon_124811.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button mnemonicParsing="false" onAction="#Eliminar" text="Eliminar" translateX="100.0" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/3221845.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button mnemonicParsing="false" onAction="#Devolver" text="Devolver" translateX="200.0" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/8278630.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
          </children>
       </GridPane>
    </children>
