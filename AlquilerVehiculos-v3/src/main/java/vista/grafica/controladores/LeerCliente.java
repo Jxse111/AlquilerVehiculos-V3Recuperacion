@@ -1,5 +1,5 @@
 package vista.grafica.controladores;
-import dominio.Cliente;
+import Modelo.dominio.Cliente;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -17,7 +17,7 @@ import vista.utilidades.Controlador;
 
 	    @FXML
 	    void cancelar(ActionEvent event) {
-	    	Cliente.getCliente() {
+	    	Cliente.LeerCliente() {
 	    		String nombre = tfNombre.getText();
 	    		String dni = tfDNI.getText();
 	    	String telefono = tfTeléfono.getText();{

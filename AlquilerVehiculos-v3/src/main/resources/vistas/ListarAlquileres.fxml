@@ -30,11 +30,11 @@
                   <TableColumn prefWidth="114.0" text="FechaAlquiler" />
               </columns>
             </TableView>
-            <Button mnemonicParsing="false" text="Buscar" translateX="10.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Eliminar" translateX="100.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Devolver" translateX="200.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Estadisticas" translateX="300.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Buscar" text="Buscar" translateX="10.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Mostrar" text="Mostrar todo" translateX="400.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Eliminar" text="Eliminar" translateX="100.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Devolver" text="Devolver" translateX="200.0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#Estadisticas" text="Estadisticas" translateX="300.0" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
