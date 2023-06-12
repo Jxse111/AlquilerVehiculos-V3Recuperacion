@@ -25,6 +25,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JAVA FX 17"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/AlquilerVehiculos-v0"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/AlquilerVehiculos-v1"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/AlquilerVehiculos-v2"/>
