@@ -3,7 +3,7 @@ package vista.utilidades;
 import javafx.application.Application;
 import vista.recursos.LanzadorVentanaPrincipal;
 
-public class MainApp {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
