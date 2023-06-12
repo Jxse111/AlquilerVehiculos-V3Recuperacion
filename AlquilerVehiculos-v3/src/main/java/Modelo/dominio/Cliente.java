@@ -1,5 +1,6 @@
 package Modelo.dominio;
 
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
 import java.util.Objects;
 
 public class Cliente {

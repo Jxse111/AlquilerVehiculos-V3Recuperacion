@@ -1,5 +1,8 @@
 package Modelo.dominio;
 
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;

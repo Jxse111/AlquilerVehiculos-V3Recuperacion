@@ -1,9 +1,13 @@
 package Modelo.negocio.ficheros;
 
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IAlquileres;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IClientes;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IVehiculos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Alquileres;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Clientes;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Vehiculos;
+
+import Modelo.negocio.IAlquileres;
+import Modelo.negocio.IClientes;
+import Modelo.negocio.IFuenteDatos;
+import Modelo.negocio.IVehiculos;
 
 public class FuenteDatosMemoria implements IFuenteDatos {
  @Override

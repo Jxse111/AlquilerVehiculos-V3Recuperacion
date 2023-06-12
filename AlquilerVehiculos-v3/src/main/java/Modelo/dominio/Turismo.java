@@ -1,5 +1,7 @@
 package Modelo.dominio;
 
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
 import java.util.Objects;
 
 public class Turismo extends Vehiculo {

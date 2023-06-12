@@ -7,6 +7,8 @@ import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
 import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo;
 import org.iesalandalus.programacion.utilidades.Entrada;
 
+import vista.Opcion;
+
 public class Consola {
 	private static final String PATRON_FECHA = "dd/MM/yyyy";
 	private static final DateTimeFormatter FORMATO_FECHA = DateTimeFormatter.ofPattern(PATRON_FECHA);

@@ -1,7 +1,8 @@
 package Modelo.negocio.ficheros;
 
 import java.io.File;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IClientes;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Clientes;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.UtilidadesXml;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +14,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import Modelo.negocio.IClientes;
 
 public abstract class Clientes implements IClientes {
 

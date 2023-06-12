@@ -1,12 +1,16 @@
 package Modelo;
 
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.Modelo;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.naming.OperationNotSupportedException;
+
+import Modelo.dominio.Vehiculo;
+import Modelo.negocio.IFuenteDatos;
 
 public class ModeloCascada extends Modelo {
 

@@ -1,5 +1,8 @@
 package Modelo.dominio;
 
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Autobus;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
+
 public class Autobus extends Vehiculo {
 
 	private static final int FACTOR_PLAZAS=2;

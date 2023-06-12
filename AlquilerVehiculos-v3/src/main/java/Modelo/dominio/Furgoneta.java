@@ -1,6 +1,9 @@
 package Modelo.dominio;
 
-	public class Furgoneta extends Vehiculo {
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Furgoneta;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
+
+public class Furgoneta extends Vehiculo {
 
 		private static final int FACTOR_PMA = 100;
 		private static final int FACTOR_PLAZAS = 1;

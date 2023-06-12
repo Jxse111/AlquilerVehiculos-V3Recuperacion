@@ -1,7 +1,7 @@
 package Modelo;
 
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.FuenteDatosMemoria;
+import Modelo.negocio.IFuenteDatos;
+import Modelo.negocio.ficheros.FuenteDatosMemoria;
 
 public enum FactoriaFuenteDatos {
 

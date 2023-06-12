@@ -1,8 +1,10 @@
 package Modelo.negocio.ficheros;
 
 import java.io.File;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IAlquileres;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Alquileres;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Clientes;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.UtilidadesXml;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Vehiculos;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -18,6 +20,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import Modelo.dominio.Vehiculo;
+import Modelo.negocio.IAlquileres;
 
 public abstract class Alquileres implements IAlquileres {
 

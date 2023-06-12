@@ -1,17 +1,18 @@
 package Modelo;
 
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IAlquileres;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IClientes;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IFuenteDatos;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IVehiculos;
 import java.time.LocalDate;
 import java.util.List;
 
 import javax.naming.OperationNotSupportedException;
 
 import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
+
+import Modelo.dominio.Alquiler;
+import Modelo.dominio.Vehiculo;
+import Modelo.negocio.IAlquileres;
+import Modelo.negocio.IClientes;
+import Modelo.negocio.IFuenteDatos;
+import Modelo.negocio.IVehiculos;
 
 public abstract class Modelo {
 

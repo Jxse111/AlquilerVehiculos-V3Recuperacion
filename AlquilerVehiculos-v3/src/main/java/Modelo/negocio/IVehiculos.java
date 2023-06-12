@@ -1,9 +1,10 @@
 package Modelo.negocio;
 
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
 import java.util.List;
 
 import javax.naming.OperationNotSupportedException;
+
+import Modelo.dominio.Vehiculo;
 
 public interface IVehiculos {
 

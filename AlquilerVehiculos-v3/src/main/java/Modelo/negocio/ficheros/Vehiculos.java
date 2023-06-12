@@ -1,10 +1,8 @@
 package Modelo.negocio.ficheros;
 
 import java.io.File;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Autobus;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Furgoneta;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
-import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.IVehiculos;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.UtilidadesXml;
+import java.org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros.Vehiculos;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +14,11 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import Modelo.dominio.Autobus;
+import Modelo.dominio.Furgoneta;
+import Modelo.dominio.Vehiculo;
+import Modelo.negocio.IVehiculos;
 
 public class Vehiculos implements IVehiculos {
 

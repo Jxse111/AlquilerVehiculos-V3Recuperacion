@@ -7,6 +7,9 @@ import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler;
 import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
 import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo;
 
+import vista.Consola;
+import vista.Opcion;
+
 public class Vista {
 	private Controlador controlador;
 
